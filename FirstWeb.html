@@ -1,173 +1,125 @@
 <!DOCTYPE html>
 <html>
-    <head>
-        <meta charset="utf-8">
-        <title>My First Website</title>
-        <link href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab&display=swap" rel="stylesheet">
-        <style>
-            body {
-                font-family: 'Roboto', sans-serif;
-                margin: 0;
-                padding: 0;
-            }
-            .back {
-                background-color: #f4f7fb;
-            }
-            #Heading {
-                font-size: 24px;
-                padding-left: 20px;
-            }
-            h2,
-            .intro {
-                font-family: 'Roboto Slab', serif;
-            }
-            .intro {
-                font-size: 56px;
-            }
-            .container {
-                background-color: #f4f7fb;
-                margin-top: 100px;
-            }
-            .inner-container {
-                padding-top: 10px;
-                padding-bottom: 30px;
-                width: 80%;
-                margin: 0 auto;
-            }
-            .profile-img {
-                width: 300px;
-                height: auto;
-                position: relative;
-                top: -100px;
-                border-radius: 3px;
-            }
-            .social-icons {
-                display: flex;
-                flex-direction: row;
-                list-style: none;
-                justify-content: center;
-            }
-            .social-icon {
-                width: 35px;
-                height: 35px;
-                margin: 15px;
-            }
-            .lists {
-                display: flex;
-                flex-direction: row;
-                justify-content: center;
-                padding-bottom: 15px;
-            }
-            .item {
-                line-height: 30px;
-            }
-            .project-container {
-                background-color: #f4f7fb;
-            }
-            .project {
-                float: left;
-                /* display: flex; */
-                /* flex-direction: row; */
-                margin-bottom: 10px;
-                background-color: white;
-                width: 33.33%;
-            }
-            .project-image {
-                background-color: grey;
-                width: 400px;
-                height: 300px;
-            }
-            .project-image > p {
-                text-align: center;
-            }
-            .project-info {
-                flex: 1;
-                padding-left: 24px;
-                padding-right: 24px;
-            }
-            .project-info > p {
-                line-height: 26px;
-                width: 80%;
-            }
-            .project-number {
-                font-size: 26px;
-            }
-        </style>
-    </head>
-    <body>
-        <section class="container">
-            <div class="inner-container">
-                <img class="profile-img" src="img/frame.jpg" />
-                <p class="intro">Hello, I'm Curtice</p>
-                <p>🎈 I'm graduating High School in 2020 and would love to learn more about web development and design.</p>
-                <p>🎈 I'm always available on the weekends and after 3:00 on weekdays.</p>
-            </div>
-        </section>
+  <head>
+    <meta charset="utf-8" />
+    <title>My First Website</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Roboto|Roboto+Slab&display=swap"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <section class="container">
+      <div class="inner-container">
+        <img class="profile-img" src="img/frame.jpg" />
+        <p class="intro">Hello, I'm Curtice</p>
+        <p>
+          🎈 I'm graduating High School in 2020 and would love to learn more
+          about web development and design.
+        </p>
+        <p>
+          🎈 I'm always available on the weekends and after 3:00 on weekdays.
+        </p>
+      </div>
+    </section>
 
-        <section>
-            <div>
-              <ul class="social-icons">
-                <li>
-                    <a href="mailto:curtice.desota@gmail.com">
-                        <img class="social-icon" src="img/gmail.png" alt="curtice.desota@gmail.com" />
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.github.com/RisingLegacy">
-                        <img class="social-icon" src="img/github-image.png" alt="GitHub" />
-                    </a>
-                </li>
-                <li>
-                    <a href="https://www.linkedin.com">
-                        <img class="social-icon" src="img/linkedin.png" alt="LinkedIn" />
-                    </a>
-                </li>
-              </ul>
-            </div>
-        </section>
+    <section>
+      <div>
+        <ul class="social-icons">
+          <li>
+            <a href="mailto:curtice.desota@gmail.com">
+              <img
+                class="social-icon"
+                src="img/gmail.png"
+                alt="curtice.desota@gmail.com"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.github.com/RisingLegacy">
+              <img
+                class="social-icon"
+                src="img/github-image.png"
+                alt="GitHub"
+              />
+            </a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com">
+              <img class="social-icon" src="img/linkedin.png" alt="LinkedIn" />
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
 
-        <section class="lists">
-                <ul class="left-list">
-                    <h2>Who am I</h2> 
-                    <li class="item">17 years old</li>
-                    <li class="item">2 older brothers and a younger sister</li>
-                    <li class="item">Senior in High School</li>
-                </ul>
-                <ul class="right-list">
-                    <h2>Things I like to do</h2>
-                    <li class="item">Ski with family and friends</li>
-                    <li class="item">Play video games</li>
-                    <li class="item">Ride horses</li>
-                </ul>
-        </section>
-        
-        <section class="project-container">
-            <div class="inner-container">
-                <h2>Projects</h2>
-                <div class="project">
-                    <div class="project-image"></div>
-                    <div class="project-info">
-                        <p class="project-number">Project 1</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    </div>
-                </div>
+    <section class="lists">
+      <ul class="left-list">
+        <h2>Who am I</h2>
+        <li class="item">17 years old</li>
+        <li class="item">2 older brothers and a younger sister</li>
+        <li class="item">Senior in High School</li>
+      </ul>
+      <ul class="right-list">
+        <h2>Things I like to do</h2>
+        <li class="item">Ski with family and friends</li>
+        <li class="item">Play video games</li>
+        <li class="item">Ride horses</li>
+      </ul>
+    </section>
 
-                <div class="project">
-                    <div class="project-image"></div>
-                    <div class="project-info">
-                        <p class="project-number">Project 2</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    </div>
-                </div>
+    <section class="project-container">
+      <div class="inner-container">
+        <h2>Projects</h2>
+        <div class="project">
+          <div class="project-image"></div>
+          <div class="project-info">
+            <p class="project-number">Project 1</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+        </div>
 
-                <div class="project">
-                    <div class="project-image"></div>
-                    <div class="project-info">
-                        <p class="project-number">Project 3</p>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </body>
+        <div class="project">
+          <div class="project-image"></div>
+          <div class="project-info">
+            <p class="project-number">Project 2</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+        </div>
+
+        <div class="project">
+          <div class="project-image"></div>
+          <div class="project-info">
+            <p class="project-number">Project 3</p>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
+              eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut
+              enim ad minim veniam, quis nostrud exercitation ullamco laboris
+              nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in
+              reprehenderit in voluptate velit esse cillum dolore eu fugiat
+              nulla pariatur. Excepteur sint occaecat cupidatat non proident,
+              sunt in culpa qui officia deserunt mollit anim id est laborum.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+  </body>
 </html>

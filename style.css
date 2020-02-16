@@ -1,0 +1,87 @@
+body {
+  font-family: "Roboto", sans-serif;
+  margin: 0;
+  padding: 0;
+}
+.back {
+  background-color: #f4f7fb;
+}
+#Heading {
+  font-size: 24px;
+  padding-left: 20px;
+}
+h2,
+.intro {
+  font-family: "Roboto Slab", serif;
+}
+.intro {
+  font-size: 56px;
+}
+.container {
+  background-color: #f4f7fb;
+  margin-top: 100px;
+}
+.inner-container {
+  padding-top: 10px;
+  padding-bottom: 30px;
+  width: 80%;
+  margin: 0 auto;
+}
+.profile-img {
+  width: 300px;
+  height: auto;
+  position: relative;
+  top: -100px;
+  border-radius: 3px;
+}
+.social-icons {
+  display: flex;
+  flex-direction: row;
+  list-style: none;
+  justify-content: center;
+}
+.social-icon {
+  width: 35px;
+  height: 35px;
+  margin: 15px;
+}
+.lists {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  padding-bottom: 15px;
+}
+.item {
+  line-height: 30px;
+}
+.project-container {
+  background-color: #f4f7fb;
+}
+.project {
+  float: left;
+  /* display: flex; */
+  /* flex-direction: row; */
+  margin-bottom: 10px;
+  background-color: white;
+  width: 33.33%;
+}
+.project-image {
+  background-color: grey;
+  width: 400px;
+  height: 300px;
+}
+.project-image > p {
+  text-align: center;
+}
+.project-info {
+  flex: 1;
+  padding-left: 24px;
+  padding-right: 24px;
+}
+.project-info > p {
+  line-height: 26px;
+  width: 80%;
+}
+.project-number {
+  font-size: 26px;
+}
