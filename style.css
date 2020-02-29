@@ -1,3 +1,27 @@
+/** Overlay */
+@keyframes animatedBackground {
+  from { background-position: 0 100%; }
+  to { background-position: 100% 75%; }
+}
+
+#overlay {
+  background-image: url('./img/nyan-cat.png');
+  background-size: 100px auto;
+  background-position: 0px 0px;
+  background-repeat: repeat;
+  position: fixed;
+  display: none;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: 1000;
+  background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+  animation: animatedBackground 3s linear infinite;
+}
+
 body {
   font-family: "Roboto", sans-serif;
   margin: 0;

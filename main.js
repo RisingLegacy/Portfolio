@@ -18,3 +18,10 @@ function changeTheme() {
 }
 
 theme.onclick = changeTheme;
+
+function nyanCats() {
+    const overlay = document.querySelector('#overlay');
+    overlay.style.display = 'block';
+}
+
+secret.onclick = nyanCats;
