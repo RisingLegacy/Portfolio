@@ -1,11 +1,15 @@
 /** Overlay */
 @keyframes animatedBackground {
-  from { background-position: 0 100%; }
-  to { background-position: 100% 75%; }
+  from {
+    background-position: 0 100%;
+  }
+  to {
+    background-position: 100% 75%;
+  }
 }
 
 #overlay {
-  background-image: url('./img/nyan-cat.png');
+  background-image: url("./img/nyan-cat.png");
   background-size: 100px auto;
   background-position: 0px 0px;
   background-repeat: repeat;
@@ -18,7 +22,7 @@
   right: 0;
   bottom: 0;
   z-index: 1000;
-  background-color: rgba(0,0,0,0.5); /* Black background with opacity */
+  background-color: rgba(0, 0, 0, 0.5); /* Black background with opacity */
   animation: animatedBackground 3s linear infinite;
 }
 
