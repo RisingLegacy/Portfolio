@@ -14,7 +14,7 @@ function changeTheme() {
     projects.style.backgroundColor = '#333';
 
     const projectHead = document.querySelector('#project-head');
-    projectHead.style.color = 'white';
+    projectHead.style.color = 'white'; 
 }
 
 theme.onclick = changeTheme;

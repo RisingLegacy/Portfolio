@@ -71,12 +71,17 @@ h2,
   top: -100px;
   border-radius: 3px;
 }
+.list-container {
+  padding-top: 10px;
+  padding-bottom: 15px;
+}
 .social-icons {
   display: flex;
   flex-direction: row;
   list-style: none;
   justify-content: center;
   padding-top: 10px;
+  margin: 0px;
 }
 .social-icon {
   width: 35px;
@@ -92,7 +97,7 @@ h2,
   line-height: 30px;
 }
 .project-container {
-  /* background-color: #f4f7fb; */
+  margin-top: 0px;
   display: flex;
   flex-direction: row;
   margin-right: 40px;
@@ -104,6 +109,7 @@ h2,
   /* width: 95%; */
 }
 .projects > h2 {
+  margin-top: 0px;
   padding-left: 25px;
   padding-top: 15px;
 }
